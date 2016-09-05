@@ -12,9 +12,9 @@
     <OutputFileName>$(MSBuildProjectName)</OutputFileName>
     <OutputFileExtension>.elf</OutputFileExtension>
     <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
-    <AssemblyName>ArduinoUnoUsbSerial</AssemblyName>
-    <Name>ArduinoUnoUsbSerial</Name>
-    <RootNamespace>ArduinoUnoUsbSerial</RootNamespace>
+    <AssemblyName>ArduinoUsbSerial</AssemblyName>
+    <Name>ArduinoUsbSerial</Name>
+    <RootNamespace>ArduinoUsbSerial</RootNamespace>
     <ToolchainFlavour>Native</ToolchainFlavour>
     <KeepTimersRunning>true</KeepTimersRunning>
     <OverrideVtor>false</OverrideVtor>
