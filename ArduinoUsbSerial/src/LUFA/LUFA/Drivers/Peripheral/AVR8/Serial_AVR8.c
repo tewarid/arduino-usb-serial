@@ -88,8 +88,9 @@ void Serial_SendString(const char* StringPtr)
 void Serial_SendData(const void* Buffer,
                      uint16_t Length)
 {
+    uint8_t* buf = (uint8_t*)Buffer;
 	while (Length--)
-	  Serial_SendByte(*((uint8_t*)Buffer++));
+	  Serial_SendByte(*(buf++));
 }
 
 void Serial_CreateStream(FILE* Stream)
